@@ -7,16 +7,16 @@ SIMULATION_TIME = 600  # Total simulation time in minutes (e.g., 10 hours)
 RANDOM_SEED = 42       # For reproducibility
 
 # --- Facility Resources ---
-NUM_INSPECTION_BAYS = 2
-NUM_GENERAL_BAYS = 5
-NUM_EXPRESS_BAYS = 1
+NUM_INSPECTION_BAYS = 3
+NUM_GENERAL_BAYS = 13
+NUM_EXPRESS_BAYS = 2
 
 # --- Arrival Rates (Customers per minute) ---
 # Example: 1 customer arrives every roughly 15 minutes
 INTERARRIVAL_TIME_MEAN = 15.0
 
 # --- Service Time Distributions (in minutes) ---
-INSPECTION_TIME_MEAN = 10.0
+INSPECTION_TIME_MEAN = 7.0
 INSPECTION_TIME_STD = 2.0
 
 # General Service times are longer for heavy-duty
